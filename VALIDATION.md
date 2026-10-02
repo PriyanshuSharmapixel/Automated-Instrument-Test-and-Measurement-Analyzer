@@ -10,6 +10,7 @@ This version was exercised locally with Python 3.12.14, NumPy 2.3.5, pandas 2.2.
 - Dashboard AppTest: initial load, normal PASS, biased FAIL, persisted history, and revisiting the original PASS run.
 - Editable package installation with `python -m pip install --no-deps --no-build-isolation -e .`.
 - Generated six labeled example runs with CSV, full JSON, HTML reports, and `sample_results/summary.json`.
+- GitHub Actions passed on **Python 3.11 and Python 3.12**, including dependency installation, the test suite, and a CLI demo: [verified run](https://github.com/PriyanshuSharmapixel/Automated-Instrument-Test-and-Measurement-Analyzer/actions/runs/36988059919).
 
 ## Example outcomes
 
@@ -30,4 +31,4 @@ The last scenario injects a timeout every acquisition; the others use an interva
 
 Automated tests verify limit boundaries, finite response parsing, configuration rejection, repeatability, injected failures, bounded retry behavior, device cleanup, SQLite round trips, report escaping, CLI exit codes, and dashboard flows.
 
-Physical hardware, actual R&S command compatibility, Windows execution, and full visual browser layout were not tested. Python 3.11/3.12 CI is configured but has not run on GitHub here. Requirements specify compatible version ranges; future installations can resolve different versions. The recorded environment above identifies this validation run.
+Physical hardware, actual R&S command compatibility, Windows execution, and full visual browser layout were not tested. GitHub CI passed on Linux with Python 3.11 and 3.12. Requirements specify compatible version ranges; future installations can resolve different versions. The recorded environment above identifies the local validation run.
