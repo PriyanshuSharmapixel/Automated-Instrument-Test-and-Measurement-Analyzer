@@ -1,0 +1,844 @@
+{
+  "schema_version": 1,
+  "run_id": "33ba34b1cef9458fbacd6a18656c92fb",
+  "created_at": "2026-10-02T07:57:37.755717+00:00",
+  "mode": "simulation",
+  "plan": {
+    "title": "Simulated frequency and amplitude verification",
+    "tests": [
+      {
+        "name": "1 MHz reference",
+        "frequency_hz": 1000000,
+        "amplitude_v": 1.0,
+        "frequency_tolerance_hz": 100,
+        "amplitude_tolerance_v": 0.02,
+        "repeats": 20
+      },
+      {
+        "name": "2 MHz reference",
+        "frequency_hz": 2000000,
+        "amplitude_v": 2.0,
+        "frequency_tolerance_hz": 200,
+        "amplitude_tolerance_v": 0.04,
+        "repeats": 20
+      }
+    ],
+    "simulation": {
+      "seed": 42,
+      "scenario": "drift",
+      "frequency_noise_hz": 10.0,
+      "amplitude_noise_v": 0.002,
+      "fault_every": 7
+    },
+    "retries": 1
+  },
+  "instrument": "PORTFOLIO,SIMULATED-METER,SOFTWARE-ONLY,1.0",
+  "results": [
+    {
+      "name": "1 MHz reference",
+      "case": {
+        "name": "1 MHz reference",
+        "frequency_hz": 1000000,
+        "amplitude_v": 1.0,
+        "frequency_tolerance_hz": 100,
+        "amplitude_tolerance_v": 0.02,
+        "repeats": 20
+      },
+      "samples": [
+        {
+          "sample": 1,
+          "frequency_hz": 1000003.0471707976,
+          "amplitude_v": 0.997920031787519,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 2,
+          "frequency_hz": 1000107.5045119581,
+          "amplitude_v": 1.0068811294327824,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 3,
+          "frequency_hz": 1000180.4896481135,
+          "amplitude_v": 1.0073956409862752,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 4,
+          "frequency_hz": 1000301.2784040316,
+          "amplitude_v": 1.0143675148153128,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 5,
+          "frequency_hz": 1000399.831988425,
+          "amplitude_v": 1.0182939121448529,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 6,
+          "frequency_hz": 1000508.7939797486,
+          "amplitude_v": 1.0265555838708578,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 7,
+          "frequency_hz": 1000600.6603069756,
+          "amplitude_v": 1.0322544824139361,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 8,
+          "frequency_hz": 1000704.6750934225,
+          "amplitude_v": 1.0332814150742335,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 9,
+          "frequency_hz": 1000803.6875078408,
+          "amplitude_v": 1.038082234798342,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 10,
+          "frequency_hz": 1000908.7845030131,
+          "amplitude_v": 1.0449001481780276,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 11,
+          "frequency_hz": 1000998.1513763645,
+          "amplitude_v": 1.048638140911192,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 12,
+          "frequency_hz": 1001112.2254133867,
+          "amplitude_v": 1.0546909410358625,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 13,
+          "frequency_hz": 1001195.7167217784,
+          "amplitude_v": 1.0592957328990236,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 14,
+          "frequency_hz": 1001305.3230918555,
+          "amplitude_v": 1.0657308881287282,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 15,
+          "frequency_hz": 1001404.127326116,
+          "amplitude_v": 1.0708616420060157,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 16,
+          "frequency_hz": 1001521.4164760087,
+          "amplitude_v": 1.0741871699672307,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 17,
+          "frequency_hz": 1001594.8775727092,
+          "amplitude_v": 1.0783724545435043,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 18,
+          "frequency_hz": 1001706.1597942257,
+          "amplitude_v": 1.0872579445854418,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 19,
+          "frequency_hz": 1001798.8605254234,
+          "amplitude_v": 1.088319687046075,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 20,
+          "frequency_hz": 1001891.7551878431,
+          "amplitude_v": 1.0963011855756495,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        }
+      ],
+      "attempts": [
+        {
+          "sample": 1,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000003.0471707976",
+          "raw_amplitude": "0.997920031787519"
+        },
+        {
+          "sample": 2,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000107.5045119581",
+          "raw_amplitude": "1.0068811294327824"
+        },
+        {
+          "sample": 3,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000180.4896481135",
+          "raw_amplitude": "1.0073956409862752"
+        },
+        {
+          "sample": 4,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000301.2784040316",
+          "raw_amplitude": "1.0143675148153128"
+        },
+        {
+          "sample": 5,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000399.831988425",
+          "raw_amplitude": "1.0182939121448529"
+        },
+        {
+          "sample": 6,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000508.7939797486",
+          "raw_amplitude": "1.0265555838708578"
+        },
+        {
+          "sample": 7,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000600.6603069756",
+          "raw_amplitude": "1.0322544824139361"
+        },
+        {
+          "sample": 8,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000704.6750934225",
+          "raw_amplitude": "1.0332814150742335"
+        },
+        {
+          "sample": 9,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000803.6875078408",
+          "raw_amplitude": "1.038082234798342"
+        },
+        {
+          "sample": 10,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000908.7845030131",
+          "raw_amplitude": "1.0449001481780276"
+        },
+        {
+          "sample": 11,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000998.1513763645",
+          "raw_amplitude": "1.048638140911192"
+        },
+        {
+          "sample": 12,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1001112.2254133867",
+          "raw_amplitude": "1.0546909410358625"
+        },
+        {
+          "sample": 13,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1001195.7167217784",
+          "raw_amplitude": "1.0592957328990236"
+        },
+        {
+          "sample": 14,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1001305.3230918555",
+          "raw_amplitude": "1.0657308881287282"
+        },
+        {
+          "sample": 15,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1001404.127326116",
+          "raw_amplitude": "1.0708616420060157"
+        },
+        {
+          "sample": 16,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1001521.4164760087",
+          "raw_amplitude": "1.0741871699672307"
+        },
+        {
+          "sample": 17,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1001594.8775727092",
+          "raw_amplitude": "1.0783724545435043"
+        },
+        {
+          "sample": 18,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1001706.1597942257",
+          "raw_amplitude": "1.0872579445854418"
+        },
+        {
+          "sample": 19,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1001798.8605254234",
+          "raw_amplitude": "1.088319687046075"
+        },
+        {
+          "sample": 20,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1001891.7551878431",
+          "raw_amplitude": "1.0963011855756495"
+        }
+      ],
+      "status": "FAIL",
+      "pass_count": 1,
+      "fail_count": 19,
+      "error_count": 0,
+      "failed_attempts": 0,
+      "frequency": {
+        "n": 20,
+        "mean": 1000952.3683300018,
+        "std": 592.2835031340825,
+        "standard_error": 132.4386174959518,
+        "min": 1000003.0471707976,
+        "max": 1001891.7551878431,
+        "mean_error": 952.368330001831
+      },
+      "amplitude": {
+        "n": 20,
+        "mean": 1.0471793940100433,
+        "std": 0.02991033008462674,
+        "standard_error": 0.0066881531298682425,
+        "min": 0.997920031787519,
+        "max": 1.0963011855756495,
+        "mean_error": 0.04717939401004334
+      }
+    },
+    {
+      "name": "2 MHz reference",
+      "case": {
+        "name": "2 MHz reference",
+        "frequency_hz": 2000000,
+        "amplitude_v": 2.0,
+        "frequency_tolerance_hz": 200,
+        "amplitude_tolerance_v": 0.04,
+        "repeats": 20
+      },
+      "samples": [
+        {
+          "sample": 1,
+          "frequency_hz": 2000007.432541712,
+          "amplitude_v": 2.0010863085366104,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 2,
+          "frequency_hz": 2000193.344902927,
+          "amplitude_v": 2.0054643226461333,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 3,
+          "frequency_hz": 2000401.1668580915,
+          "amplitude_v": 2.010437377193458,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 4,
+          "frequency_hz": 2000608.7142877795,
+          "amplitude_v": 2.0154471910975493,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 5,
+          "frequency_hz": 2000806.7891356307,
+          "amplitude_v": 2.0201351581389777,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 6,
+          "frequency_hz": 2001002.8911939869,
+          "amplitude_v": 2.026262576451677,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 7,
+          "frequency_hz": 2001185.4284418013,
+          "amplitude_v": 2.029360657567285,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 8,
+          "frequency_hz": 2001395.2962734571,
+          "amplitude_v": 2.0337222443035134,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 9,
+          "frequency_hz": 2001597.2485774877,
+          "amplitude_v": 2.042989882622469,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 10,
+          "frequency_hz": 2001791.341688843,
+          "amplitude_v": 2.046936556709183,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 11,
+          "frequency_hz": 2001983.1713022839,
+          "amplitude_v": 2.0493302299400282,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 12,
+          "frequency_hz": 2002201.627530651,
+          "amplitude_v": 2.0561724446627188,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 13,
+          "frequency_hz": 2002407.112265798,
+          "amplitude_v": 2.0615866944704,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 14,
+          "frequency_hz": 2002596.5127492775,
+          "amplitude_v": 2.064075296414671,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 15,
+          "frequency_hz": 2002808.5797588127,
+          "amplitude_v": 2.0696173913502367,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 16,
+          "frequency_hz": 2002987.2431367666,
+          "amplitude_v": 2.072733425571993,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 17,
+          "frequency_hz": 2003190.80547714,
+          "amplitude_v": 2.0809943214881077,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 18,
+          "frequency_hz": 2003401.4242573606,
+          "amplitude_v": 2.0863809707081353,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 19,
+          "frequency_hz": 2003595.7274735367,
+          "amplitude_v": 2.0903170793821535,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 20,
+          "frequency_hz": 2003806.2559039397,
+          "amplitude_v": 2.0943813069205595,
+          "status": "FAIL",
+          "error": null,
+          "attempt_count": 1
+        }
+      ],
+      "attempts": [
+        {
+          "sample": 1,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2000007.432541712",
+          "raw_amplitude": "2.0010863085366104"
+        },
+        {
+          "sample": 2,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2000193.344902927",
+          "raw_amplitude": "2.0054643226461333"
+        },
+        {
+          "sample": 3,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2000401.1668580915",
+          "raw_amplitude": "2.010437377193458"
+        },
+        {
+          "sample": 4,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2000608.7142877795",
+          "raw_amplitude": "2.0154471910975493"
+        },
+        {
+          "sample": 5,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2000806.7891356307",
+          "raw_amplitude": "2.0201351581389777"
+        },
+        {
+          "sample": 6,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2001002.8911939869",
+          "raw_amplitude": "2.026262576451677"
+        },
+        {
+          "sample": 7,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2001185.4284418013",
+          "raw_amplitude": "2.029360657567285"
+        },
+        {
+          "sample": 8,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2001395.2962734571",
+          "raw_amplitude": "2.0337222443035134"
+        },
+        {
+          "sample": 9,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2001597.2485774877",
+          "raw_amplitude": "2.042989882622469"
+        },
+        {
+          "sample": 10,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2001791.341688843",
+          "raw_amplitude": "2.046936556709183"
+        },
+        {
+          "sample": 11,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2001983.1713022839",
+          "raw_amplitude": "2.0493302299400282"
+        },
+        {
+          "sample": 12,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2002201.627530651",
+          "raw_amplitude": "2.0561724446627188"
+        },
+        {
+          "sample": 13,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2002407.112265798",
+          "raw_amplitude": "2.0615866944704"
+        },
+        {
+          "sample": 14,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2002596.5127492775",
+          "raw_amplitude": "2.064075296414671"
+        },
+        {
+          "sample": 15,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2002808.5797588127",
+          "raw_amplitude": "2.0696173913502367"
+        },
+        {
+          "sample": 16,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2002987.2431367666",
+          "raw_amplitude": "2.072733425571993"
+        },
+        {
+          "sample": 17,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2003190.80547714",
+          "raw_amplitude": "2.0809943214881077"
+        },
+        {
+          "sample": 18,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2003401.4242573606",
+          "raw_amplitude": "2.0863809707081353"
+        },
+        {
+          "sample": 19,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2003595.7274735367",
+          "raw_amplitude": "2.0903170793821535"
+        },
+        {
+          "sample": 20,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2003806.2559039397",
+          "raw_amplitude": "2.0943813069205595"
+        }
+      ],
+      "status": "FAIL",
+      "pass_count": 2,
+      "fail_count": 18,
+      "error_count": 0,
+      "failed_attempts": 0,
+      "frequency": {
+        "n": 20,
+        "mean": 2001898.4056878642,
+        "std": 1182.206471657715,
+        "standard_error": 264.3494034066829,
+        "min": 2000007.432541712,
+        "max": 2003806.2559039397,
+        "mean_error": 1898.4056878641713
+      },
+      "amplitude": {
+        "n": 20,
+        "mean": 2.0478715718087925,
+        "std": 0.029380688009906734,
+        "standard_error": 0.006569721561586447,
+        "min": 2.0010863085366104,
+        "max": 2.0943813069205595,
+        "mean_error": 0.047871571808792535
+      }
+    }
+  ],
+  "fatal_error": null,
+  "elapsed_seconds": 0.00047907099997246405,
+  "command_log": [
+    "*IDN?",
+    "CONF:FREQ 1000000",
+    "CONF:AMPL 1.0",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "CONF:FREQ 2000000",
+    "CONF:AMPL 2.0",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?"
+  ],
+  "status": "FAIL"
+}

@@ -1,0 +1,1244 @@
+{
+  "schema_version": 1,
+  "run_id": "0b567f3a2b3c4b8bb1088999939e133c",
+  "created_at": "2026-10-02T07:57:37.766362+00:00",
+  "mode": "simulation",
+  "plan": {
+    "title": "Simulated frequency and amplitude verification",
+    "tests": [
+      {
+        "name": "1 MHz reference",
+        "frequency_hz": 1000000,
+        "amplitude_v": 1.0,
+        "frequency_tolerance_hz": 100,
+        "amplitude_tolerance_v": 0.02,
+        "repeats": 20
+      },
+      {
+        "name": "2 MHz reference",
+        "frequency_hz": 2000000,
+        "amplitude_v": 2.0,
+        "frequency_tolerance_hz": 200,
+        "amplitude_tolerance_v": 0.04,
+        "repeats": 20
+      }
+    ],
+    "simulation": {
+      "seed": 42,
+      "scenario": "timeout",
+      "frequency_noise_hz": 10.0,
+      "amplitude_noise_v": 0.002,
+      "fault_every": 1
+    },
+    "retries": 1
+  },
+  "instrument": "PORTFOLIO,SIMULATED-METER,SOFTWARE-ONLY,1.0",
+  "results": [
+    {
+      "name": "1 MHz reference",
+      "case": {
+        "name": "1 MHz reference",
+        "frequency_hz": 1000000,
+        "amplitude_v": 1.0,
+        "frequency_tolerance_hz": 100,
+        "amplitude_tolerance_v": 0.02,
+        "repeats": 20
+      },
+      "samples": [
+        {
+          "sample": 1,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 2,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 3,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 4,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 5,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 6,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 7,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 8,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 9,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 10,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 11,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 12,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 13,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 14,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 15,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 16,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 17,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 18,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 19,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 20,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        }
+      ],
+      "attempts": [
+        {
+          "sample": 1,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 1,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 2,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 2,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 3,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 3,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 4,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 4,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 5,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 5,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 6,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 6,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 7,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 7,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 8,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 8,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 9,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 9,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 10,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 10,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 11,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 11,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 12,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 12,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 13,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 13,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 14,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 14,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 15,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 15,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 16,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 16,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 17,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 17,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 18,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 18,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 19,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 19,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 20,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 20,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        }
+      ],
+      "status": "ERROR",
+      "pass_count": 0,
+      "fail_count": 0,
+      "error_count": 20,
+      "failed_attempts": 40,
+      "frequency": {
+        "n": 0,
+        "mean": null,
+        "std": null,
+        "standard_error": null,
+        "min": null,
+        "max": null,
+        "mean_error": null
+      },
+      "amplitude": {
+        "n": 0,
+        "mean": null,
+        "std": null,
+        "standard_error": null,
+        "min": null,
+        "max": null,
+        "mean_error": null
+      }
+    },
+    {
+      "name": "2 MHz reference",
+      "case": {
+        "name": "2 MHz reference",
+        "frequency_hz": 2000000,
+        "amplitude_v": 2.0,
+        "frequency_tolerance_hz": 200,
+        "amplitude_tolerance_v": 0.04,
+        "repeats": 20
+      },
+      "samples": [
+        {
+          "sample": 1,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 2,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 3,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 4,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 5,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 6,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 7,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 8,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 9,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 10,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 11,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 12,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 13,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 14,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 15,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 16,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 17,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 18,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 19,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        },
+        {
+          "sample": 20,
+          "frequency_hz": null,
+          "amplitude_v": null,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "attempt_count": 2
+        }
+      ],
+      "attempts": [
+        {
+          "sample": 1,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 1,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 2,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 2,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 3,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 3,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 4,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 4,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 5,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 5,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 6,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 6,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 7,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 7,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 8,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 8,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 9,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 9,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 10,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 10,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 11,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 11,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 12,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 12,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 13,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 13,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 14,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 14,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 15,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 15,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 16,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 16,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 17,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 17,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 18,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 18,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 19,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 19,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 20,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 20,
+          "attempt": 2,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        }
+      ],
+      "status": "ERROR",
+      "pass_count": 0,
+      "fail_count": 0,
+      "error_count": 20,
+      "failed_attempts": 40,
+      "frequency": {
+        "n": 0,
+        "mean": null,
+        "std": null,
+        "standard_error": null,
+        "min": null,
+        "max": null,
+        "mean_error": null
+      },
+      "amplitude": {
+        "n": 0,
+        "mean": null,
+        "std": null,
+        "standard_error": null,
+        "min": null,
+        "max": null,
+        "mean_error": null
+      }
+    }
+  ],
+  "fatal_error": null,
+  "elapsed_seconds": 0.001032013999974879,
+  "command_log": [
+    "*IDN?",
+    "CONF:FREQ 1000000",
+    "CONF:AMPL 1.0",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "CONF:FREQ 2000000",
+    "CONF:AMPL 2.0",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?"
+  ],
+  "status": "ERROR"
+}

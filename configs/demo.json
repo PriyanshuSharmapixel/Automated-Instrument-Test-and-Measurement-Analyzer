@@ -1,0 +1,9 @@
+{
+  "title": "Simulated frequency and amplitude verification",
+  "simulation": {"seed": 42, "scenario": "normal", "frequency_noise_hz": 10.0, "amplitude_noise_v": 0.002, "fault_every": 7},
+  "retries": 1,
+  "tests": [
+    {"name": "1 MHz reference", "frequency_hz": 1000000, "amplitude_v": 1.0, "frequency_tolerance_hz": 100, "amplitude_tolerance_v": 0.02, "repeats": 20},
+    {"name": "2 MHz reference", "frequency_hz": 2000000, "amplitude_v": 2.0, "frequency_tolerance_hz": 200, "amplitude_tolerance_v": 0.04, "repeats": 20}
+  ]
+}

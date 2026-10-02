@@ -1,0 +1,904 @@
+{
+  "schema_version": 1,
+  "run_id": "078134c8315741beab4d74e5b9d9bdb0",
+  "created_at": "2026-10-02T07:57:37.760859+00:00",
+  "mode": "simulation",
+  "plan": {
+    "title": "Simulated frequency and amplitude verification",
+    "tests": [
+      {
+        "name": "1 MHz reference",
+        "frequency_hz": 1000000,
+        "amplitude_v": 1.0,
+        "frequency_tolerance_hz": 100,
+        "amplitude_tolerance_v": 0.02,
+        "repeats": 20
+      },
+      {
+        "name": "2 MHz reference",
+        "frequency_hz": 2000000,
+        "amplitude_v": 2.0,
+        "frequency_tolerance_hz": 200,
+        "amplitude_tolerance_v": 0.04,
+        "repeats": 20
+      }
+    ],
+    "simulation": {
+      "seed": 42,
+      "scenario": "timeout",
+      "frequency_noise_hz": 10.0,
+      "amplitude_noise_v": 0.002,
+      "fault_every": 7
+    },
+    "retries": 1
+  },
+  "instrument": "PORTFOLIO,SIMULATED-METER,SOFTWARE-ONLY,1.0",
+  "results": [
+    {
+      "name": "1 MHz reference",
+      "case": {
+        "name": "1 MHz reference",
+        "frequency_hz": 1000000,
+        "amplitude_v": 1.0,
+        "frequency_tolerance_hz": 100,
+        "amplitude_tolerance_v": 0.02,
+        "repeats": 20
+      },
+      "samples": [
+        {
+          "sample": 1,
+          "frequency_hz": 1000003.0471707976,
+          "amplitude_v": 0.997920031787519,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 2,
+          "frequency_hz": 1000007.5045119581,
+          "amplitude_v": 1.0018811294327825,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 3,
+          "frequency_hz": 999980.4896481135,
+          "amplitude_v": 0.9973956409862753,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 4,
+          "frequency_hz": 1000001.2784040316,
+          "amplitude_v": 0.9993675148153128,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 5,
+          "frequency_hz": 999999.831988425,
+          "amplitude_v": 0.9982939121448529,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 6,
+          "frequency_hz": 1000008.7939797486,
+          "amplitude_v": 1.0015555838708579,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 7,
+          "frequency_hz": 1000000.6603069756,
+          "amplitude_v": 1.002254482413936,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 2
+        },
+        {
+          "sample": 8,
+          "frequency_hz": 1000004.6750934225,
+          "amplitude_v": 0.9982814150742335,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 9,
+          "frequency_hz": 1000003.6875078408,
+          "amplitude_v": 0.998082234798342,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 10,
+          "frequency_hz": 1000008.7845030131,
+          "amplitude_v": 0.9999001481780275,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 11,
+          "frequency_hz": 999998.1513763645,
+          "amplitude_v": 0.9986381409111921,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 12,
+          "frequency_hz": 1000012.2254133867,
+          "amplitude_v": 0.9996909410358624,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 13,
+          "frequency_hz": 999995.7167217784,
+          "amplitude_v": 0.9992957328990235,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 2
+        },
+        {
+          "sample": 14,
+          "frequency_hz": 1000005.3230918555,
+          "amplitude_v": 1.0007308881287282,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 15,
+          "frequency_hz": 1000004.127326116,
+          "amplitude_v": 1.0008616420060157,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 16,
+          "frequency_hz": 1000021.4164760087,
+          "amplitude_v": 0.9991871699672308,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 17,
+          "frequency_hz": 999994.8775727092,
+          "amplitude_v": 0.9983724545435042,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 18,
+          "frequency_hz": 1000006.1597942257,
+          "amplitude_v": 1.0022579445854418,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 19,
+          "frequency_hz": 999998.8605254234,
+          "amplitude_v": 0.998319687046075,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 2
+        },
+        {
+          "sample": 20,
+          "frequency_hz": 999991.7551878431,
+          "amplitude_v": 1.0013011855756495,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        }
+      ],
+      "attempts": [
+        {
+          "sample": 1,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000003.0471707976",
+          "raw_amplitude": "0.997920031787519"
+        },
+        {
+          "sample": 2,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000007.5045119581",
+          "raw_amplitude": "1.0018811294327825"
+        },
+        {
+          "sample": 3,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "999980.4896481135",
+          "raw_amplitude": "0.9973956409862753"
+        },
+        {
+          "sample": 4,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000001.2784040316",
+          "raw_amplitude": "0.9993675148153128"
+        },
+        {
+          "sample": 5,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "999999.831988425",
+          "raw_amplitude": "0.9982939121448529"
+        },
+        {
+          "sample": 6,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000008.7939797486",
+          "raw_amplitude": "1.0015555838708579"
+        },
+        {
+          "sample": 7,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 7,
+          "attempt": 2,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000000.6603069756",
+          "raw_amplitude": "1.002254482413936"
+        },
+        {
+          "sample": 8,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000004.6750934225",
+          "raw_amplitude": "0.9982814150742335"
+        },
+        {
+          "sample": 9,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000003.6875078408",
+          "raw_amplitude": "0.998082234798342"
+        },
+        {
+          "sample": 10,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000008.7845030131",
+          "raw_amplitude": "0.9999001481780275"
+        },
+        {
+          "sample": 11,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "999998.1513763645",
+          "raw_amplitude": "0.9986381409111921"
+        },
+        {
+          "sample": 12,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000012.2254133867",
+          "raw_amplitude": "0.9996909410358624"
+        },
+        {
+          "sample": 13,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 13,
+          "attempt": 2,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "999995.7167217784",
+          "raw_amplitude": "0.9992957328990235"
+        },
+        {
+          "sample": 14,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000005.3230918555",
+          "raw_amplitude": "1.0007308881287282"
+        },
+        {
+          "sample": 15,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000004.127326116",
+          "raw_amplitude": "1.0008616420060157"
+        },
+        {
+          "sample": 16,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000021.4164760087",
+          "raw_amplitude": "0.9991871699672308"
+        },
+        {
+          "sample": 17,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "999994.8775727092",
+          "raw_amplitude": "0.9983724545435042"
+        },
+        {
+          "sample": 18,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1000006.1597942257",
+          "raw_amplitude": "1.0022579445854418"
+        },
+        {
+          "sample": 19,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 19,
+          "attempt": 2,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "999998.8605254234",
+          "raw_amplitude": "0.998319687046075"
+        },
+        {
+          "sample": 20,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "999991.7551878431",
+          "raw_amplitude": "1.0013011855756495"
+        }
+      ],
+      "status": "PASS",
+      "pass_count": 20,
+      "fail_count": 0,
+      "error_count": 0,
+      "failed_attempts": 3,
+      "frequency": {
+        "n": 20,
+        "mean": 1000002.3683300018,
+        "std": 8.38183882174727,
+        "standard_error": 1.8742361381873636,
+        "min": 999980.4896481135,
+        "max": 1000021.4164760087,
+        "mean_error": 2.3683300018310547
+      },
+      "amplitude": {
+        "n": 20,
+        "mean": 0.999679394010043,
+        "std": 0.0015676618728477701,
+        "standard_error": 0.00035053985134222455,
+        "min": 0.9973956409862753,
+        "max": 1.0022579445854418,
+        "mean_error": -0.0003206059899569791
+      }
+    },
+    {
+      "name": "2 MHz reference",
+      "case": {
+        "name": "2 MHz reference",
+        "frequency_hz": 2000000,
+        "amplitude_v": 2.0,
+        "frequency_tolerance_hz": 200,
+        "amplitude_tolerance_v": 0.04,
+        "repeats": 20
+      },
+      "samples": [
+        {
+          "sample": 1,
+          "frequency_hz": 2000007.432541712,
+          "amplitude_v": 2.0010863085366104,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 2,
+          "frequency_hz": 1999993.344902927,
+          "amplitude_v": 2.0004643226461334,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 3,
+          "frequency_hz": 2000001.1668580915,
+          "amplitude_v": 2.000437377193458,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 4,
+          "frequency_hz": 2000008.7142877795,
+          "amplitude_v": 2.000447191097549,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 5,
+          "frequency_hz": 2000006.7891356307,
+          "amplitude_v": 2.0001351581389777,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 6,
+          "frequency_hz": 2000002.8911939869,
+          "amplitude_v": 2.001262576451677,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 7,
+          "frequency_hz": 1999985.4284418013,
+          "amplitude_v": 1.9993606575672853,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 2
+        },
+        {
+          "sample": 8,
+          "frequency_hz": 1999995.2962734571,
+          "amplitude_v": 1.9987222443035133,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 9,
+          "frequency_hz": 1999997.2485774877,
+          "amplitude_v": 2.002989882622469,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 10,
+          "frequency_hz": 1999991.341688843,
+          "amplitude_v": 2.001936556709183,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 11,
+          "frequency_hz": 1999983.1713022839,
+          "amplitude_v": 1.9993302299400284,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 12,
+          "frequency_hz": 2000001.627530651,
+          "amplitude_v": 2.0011724446627186,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 13,
+          "frequency_hz": 2000007.112265798,
+          "amplitude_v": 2.0015866944704,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 2
+        },
+        {
+          "sample": 14,
+          "frequency_hz": 1999996.5127492775,
+          "amplitude_v": 1.999075296414671,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 15,
+          "frequency_hz": 2000008.5797588127,
+          "amplitude_v": 1.9996173913502369,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 16,
+          "frequency_hz": 1999987.2431367666,
+          "amplitude_v": 1.997733425571993,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 17,
+          "frequency_hz": 1999990.80547714,
+          "amplitude_v": 2.0009943214881076,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 18,
+          "frequency_hz": 2000001.4242573606,
+          "amplitude_v": 2.0013809707081354,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        },
+        {
+          "sample": 19,
+          "frequency_hz": 1999995.7274735367,
+          "amplitude_v": 2.0003170793821536,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 2
+        },
+        {
+          "sample": 20,
+          "frequency_hz": 2000006.2559039397,
+          "amplitude_v": 1.9993813069205595,
+          "status": "PASS",
+          "error": null,
+          "attempt_count": 1
+        }
+      ],
+      "attempts": [
+        {
+          "sample": 1,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2000007.432541712",
+          "raw_amplitude": "2.0010863085366104"
+        },
+        {
+          "sample": 2,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1999993.344902927",
+          "raw_amplitude": "2.0004643226461334"
+        },
+        {
+          "sample": 3,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2000001.1668580915",
+          "raw_amplitude": "2.000437377193458"
+        },
+        {
+          "sample": 4,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2000008.7142877795",
+          "raw_amplitude": "2.000447191097549"
+        },
+        {
+          "sample": 5,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2000006.7891356307",
+          "raw_amplitude": "2.0001351581389777"
+        },
+        {
+          "sample": 6,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2000002.8911939869",
+          "raw_amplitude": "2.001262576451677"
+        },
+        {
+          "sample": 7,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 7,
+          "attempt": 2,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1999985.4284418013",
+          "raw_amplitude": "1.9993606575672853"
+        },
+        {
+          "sample": 8,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1999995.2962734571",
+          "raw_amplitude": "1.9987222443035133"
+        },
+        {
+          "sample": 9,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1999997.2485774877",
+          "raw_amplitude": "2.002989882622469"
+        },
+        {
+          "sample": 10,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1999991.341688843",
+          "raw_amplitude": "2.001936556709183"
+        },
+        {
+          "sample": 11,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1999983.1713022839",
+          "raw_amplitude": "1.9993302299400284"
+        },
+        {
+          "sample": 12,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2000001.627530651",
+          "raw_amplitude": "2.0011724446627186"
+        },
+        {
+          "sample": 13,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 13,
+          "attempt": 2,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2000007.112265798",
+          "raw_amplitude": "2.0015866944704"
+        },
+        {
+          "sample": 14,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1999996.5127492775",
+          "raw_amplitude": "1.999075296414671"
+        },
+        {
+          "sample": 15,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2000008.5797588127",
+          "raw_amplitude": "1.9996173913502369"
+        },
+        {
+          "sample": 16,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1999987.2431367666",
+          "raw_amplitude": "1.997733425571993"
+        },
+        {
+          "sample": 17,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1999990.80547714",
+          "raw_amplitude": "2.0009943214881076"
+        },
+        {
+          "sample": 18,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2000001.4242573606",
+          "raw_amplitude": "2.0013809707081354"
+        },
+        {
+          "sample": 19,
+          "attempt": 1,
+          "status": "ERROR",
+          "error": "TimeoutError: Injected simulator timeout; no physical device was contacted",
+          "raw_frequency": null,
+          "raw_amplitude": null
+        },
+        {
+          "sample": 19,
+          "attempt": 2,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "1999995.7274735367",
+          "raw_amplitude": "2.0003170793821536"
+        },
+        {
+          "sample": 20,
+          "attempt": 1,
+          "status": "OK",
+          "error": null,
+          "raw_frequency": "2000006.2559039397",
+          "raw_amplitude": "1.9993813069205595"
+        }
+      ],
+      "status": "PASS",
+      "pass_count": 20,
+      "fail_count": 0,
+      "error_count": 0,
+      "failed_attempts": 3,
+      "frequency": {
+        "n": 20,
+        "mean": 1999998.4056878642,
+        "std": 8.033966366787718,
+        "standard_error": 1.7964494925084344,
+        "min": 1999983.1713022839,
+        "max": 2000008.7142877795,
+        "mean_error": -1.594312135828659
+      },
+      "amplitude": {
+        "n": 20,
+        "mean": 2.000371571808793,
+        "std": 0.0012402839851040637,
+        "standard_error": 0.00027733593020970226,
+        "min": 1.997733425571993,
+        "max": 2.002989882622469,
+        "mean_error": 0.00037157180879310303
+      }
+    }
+  ],
+  "fatal_error": null,
+  "elapsed_seconds": 0.0008441210000000865,
+  "command_log": [
+    "*IDN?",
+    "CONF:FREQ 1000000",
+    "CONF:AMPL 1.0",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "CONF:FREQ 2000000",
+    "CONF:AMPL 2.0",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?",
+    "MEAS:FREQ?",
+    "MEAS:AMPL?"
+  ],
+  "status": "PASS"
+}

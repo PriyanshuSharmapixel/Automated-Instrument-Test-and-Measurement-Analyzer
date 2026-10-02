@@ -1,0 +1,50 @@
+[
+  {
+    "scenario": "normal",
+    "status": "PASS",
+    "passed_readings": 40,
+    "failed_readings": 0,
+    "unresolved_errors": 0,
+    "failed_attempts": 0
+  },
+  {
+    "scenario": "bias",
+    "status": "FAIL",
+    "passed_readings": 0,
+    "failed_readings": 40,
+    "unresolved_errors": 0,
+    "failed_attempts": 0
+  },
+  {
+    "scenario": "drift",
+    "status": "FAIL",
+    "passed_readings": 3,
+    "failed_readings": 37,
+    "unresolved_errors": 0,
+    "failed_attempts": 0
+  },
+  {
+    "scenario": "timeout",
+    "status": "PASS",
+    "passed_readings": 40,
+    "failed_readings": 0,
+    "unresolved_errors": 0,
+    "failed_attempts": 6
+  },
+  {
+    "scenario": "malformed",
+    "status": "PASS",
+    "passed_readings": 40,
+    "failed_readings": 0,
+    "unresolved_errors": 0,
+    "failed_attempts": 6
+  },
+  {
+    "scenario": "persistent_timeout",
+    "status": "ERROR",
+    "passed_readings": 0,
+    "failed_readings": 0,
+    "unresolved_errors": 40,
+    "failed_attempts": 80
+  }
+]
